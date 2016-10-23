@@ -1,0 +1,17 @@
+.well {
+  margin-bottom: 0;
+}
+section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 84em;
+}
+div {
+  margin-bottom: 2em;
+  max-width: 28em;
+}
+div.align-right {
+  text-align: right;
+}

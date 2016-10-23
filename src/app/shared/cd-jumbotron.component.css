@@ -1,0 +1,11 @@
+.jumbotron {
+  background-color: transparent;
+}
+aside {
+  margin: 0 auto;
+  padding: 2em 1em;
+  max-width: 56em;
+}
+h1, p {
+  color: rgb(255, 255, 255);
+}

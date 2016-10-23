@@ -1,0 +1,9 @@
+ul {
+  margin: 2em auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+}
+ul li {
+  margin: 1em;
+}
