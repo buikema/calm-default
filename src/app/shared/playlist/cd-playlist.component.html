@@ -1,16 +1,27 @@
+<cd-filter></cd-filter>
+
 <section class="panel panel-default">
   <div class="panel-heading">Calm Default Playlist</div>
   <div class="panel-body list-group">
 
     <!--Dummy video listings must be removed-->
-    <a href="#" class="list-group-item">
+    <a *ngFor="let video of videos" href="#" class="list-group-item">
+      <!--<picture>-->
+        <!--<img-->
+          <!--srcset="{{ video[0].snippet.thumbnails.medium.url.value }} {{ video[0].snippet.thumbnails.medium.width.value}}w,-->
+                  <!--{{ videos[0].snippet.thumbnails.high.url.value }} {{ videos[0].snippet.thumbnails.high.width.value}}w"-->
+          <!--sizes="(min-width: 33em) 33em, 20vw"-->
+          <!--src="{{ videos[0].snippet.thumbnails.default.url.value }}"-->
+          <!--alt="YouTube Video Thumbnail">-->
+      <!--</picture>-->
+      <!--<figcaption>-->
+        <!--<h4 class="list-group-item-heading">{{videos.snippet.title.value}}</h4>-->
+        <!--<p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>-->
+      <!--</figcaption>-->
       <h4 class="list-group-item-heading">List group item heading</h4>
       <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
     </a>
-    <a href="#" class="list-group-item">
-      <h4 class="list-group-item-heading">List group item heading</h4>
-      <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-    </a>
+
     <a href="#" class="list-group-item">
       <h4 class="list-group-item-heading">List group item heading</h4>
       <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>

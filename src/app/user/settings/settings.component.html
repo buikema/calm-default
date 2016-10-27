@@ -1,0 +1,67 @@
+<form class="form-horizontal">
+  <fieldset>
+    <legend>Settings</legend>
+
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Day or Night</label>
+      <div class="col-lg-10">
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios1" value="bright theme" checked="">
+            Day: a brighter theme for clear reading.
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="dark theme">
+            Afterdark: something a little earier on tired eyes.
+          </label>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <div class="form-group">
+      <label class="col-lg-2 control-label">Log In</label>
+      <div class="col-lg-10">
+        <p>Save whether you prefer Day or Afterdark viewing, and access the remaining settings by creating an account or logging in. Since Calm Default is a YouTube viewer, a Google account is required to log in.</p>
+        <button type="submit" class="btn btn-primary">Take Me To My Account</button>
+      </div>
+    </div>
+    <br>
+
+    <div class="form-group">
+      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+      <div class="col-lg-10">
+        <input type="text" disabled="" class="form-control" id="inputEmail" placeholder="{{ userEmail }}" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" disabled=""> I would like to get rare emails from Calm Default with new features or changes to the app.
+          </label>
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <div class="form-group">
+      <label for="select" class="col-lg-2 control-label">Calm Default Premium</label>
+      <div class="col-lg-10">
+        <select class="form-control" id="select" disabled="">
+          <option>The Default - It's basic and free</option>
+          <option>Premium Quarterly (Every 3 Months) - $3</option>
+          <option>Premium Annually (Once a Year) - $10</option>
+        </select>
+        <br>
+        <p class="text-info">The Calm Default app runs on Google's Firebase. Buying premium gets you a longer Calm Default playlist and presents you a new one more often. This money pays for fees from Google for using the Firebase service.</p>
+      </div>
+    </div>
+    <br>
+
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="reset" class="btn btn-default">Cancel</button>
+        <button type="submit" class="btn btn-primary" disabled="">Save</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
